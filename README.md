@@ -1,0 +1,1 @@
+Just a simple timer web app in vanilla javascript with es6 classes

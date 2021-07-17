@@ -28,8 +28,14 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+html, body {
+	height: 100%;
+
+}
 body {
 	line-height: 1;
+	display: grid;
+	place-items: center;
 }
 ol, ul {
 	list-style: none;
@@ -45,4 +51,14 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+.container {
+	position: relative;
+	width: 400px;
+	height: 400px;
+}
+.controls {
+	position: absolute;
+	top: 50%;
+	left: 50%;
 }

@@ -8,9 +8,18 @@
   <title>Timer</title>
 </head>
 <body>
-  <input type="text" id="duration" aria-label="duration input" />
-  <button id="start">Start</button>
-  <button id="pause">Pause</button>
+  <div class="container">
+
+    <svg width="400" height="400">
+      <circle id="circle" r="190" cx="200" cy="200" fill="transparent" stroke="blue" stroke-width="15" transform="rotate(-90 200 200)"/>
+    </svg>
+    <div class="controls">
+      <input type="text" id="duration" aria-label="duration input" value="30" />
+    <button id="start">Start</button>
+    <button id="pause">Pause</button>
+    </div>
+  </div>
+  <script src="timer.js"></script>
   <script src="index.js"></script>
 </body>
 </html>
